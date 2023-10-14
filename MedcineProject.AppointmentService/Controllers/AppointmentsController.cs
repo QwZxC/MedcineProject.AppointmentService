@@ -19,7 +19,7 @@ namespace MedicineProject.Api.Controllers
             this.appointmentService = appointmentService;
         }
 
-        [HttpPost("appointment")]
+        [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
