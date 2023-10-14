@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  medcineproject.appointmentservice:
+    image: ${DOCKER_REGISTRY-}medcineprojectappointmentservice
+    build:
+      context: .
+      dockerfile: MedcineProject.AppointmentService/Dockerfile

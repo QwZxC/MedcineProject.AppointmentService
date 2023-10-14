@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedcineProject.AppointmentService", "MedcineProject.AppointmentService\MedcineProject.AppointmentService.csproj", "{318E6DA3-A51C-4D2E-88E6-E335D93B40D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedcineProject.AppointmentService", "MedcineProject.AppointmentService\MedcineProject.AppointmentService.csproj", "{318E6DA3-A51C-4D2E-88E6-E335D93B40D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EFDEBA13-8529-46D8-B7EA-0961DE564AA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{EFDEBA13-8529-46D8-B7EA-0961DE564AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{FF55F52D-B296-4BA5-ACC7-ACB84C2C812F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{FF55F52D-B296-4BA5-ACC7-ACB84C2C812F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{A635D51E-5C8A-468E-9A9E-31003ED5484E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{A635D51E-5C8A-468E-9A9E-31003ED5484E}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{05A439A3-B9C9-4DA3-A524-CAFA95F829C9}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EF5C3C4F-C0FA-438D-8D07-33323DABA635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{A635D51E-5C8A-468E-9A9E-31003ED5484E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A635D51E-5C8A-468E-9A9E-31003ED5484E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A635D51E-5C8A-468E-9A9E-31003ED5484E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05A439A3-B9C9-4DA3-A524-CAFA95F829C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05A439A3-B9C9-4DA3-A524-CAFA95F829C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05A439A3-B9C9-4DA3-A524-CAFA95F829C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05A439A3-B9C9-4DA3-A524-CAFA95F829C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5C3C4F-C0FA-438D-8D07-33323DABA635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5C3C4F-C0FA-438D-8D07-33323DABA635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5C3C4F-C0FA-438D-8D07-33323DABA635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5C3C4F-C0FA-438D-8D07-33323DABA635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
